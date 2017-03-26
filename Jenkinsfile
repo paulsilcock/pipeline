@@ -3,8 +3,7 @@ node {
 		echo "Check out code"
 		checkout scm
 
-		echo "Publish HTML"
-		archiveArtifacts artifacts: "**.html"
+		sh script: "ls -l"
     }
 
 	stage("Test approval") {
