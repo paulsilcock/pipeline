@@ -8,7 +8,7 @@ node {
 	      allowMissing: false,
 	      alwaysLinkToLastBuild: false,
 	      keepAll: true,
-	      reportDir: "knockout-d3-bindings",
+	      reportDir: "./",
 	      reportFiles: "*.html, *.js, Scripts/*.js, Scripts/d3/*.js",
 	      reportName: "Blah"
 	    ])
