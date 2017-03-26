@@ -4,7 +4,7 @@ node {
 		checkout scm
 
 		echo "Publish HTML"
-		archiveArtifacts includes: "**.html, **.js"
+		archiveArtifacts artifacts: "**.html"
     }
 
 	stage("Test approval") {
