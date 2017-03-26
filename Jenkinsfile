@@ -4,6 +4,6 @@ node {
 	}
 
 	stage("Test approval") {
-		//input "Ok?"
+		input "Ok?"
 	}
 }
