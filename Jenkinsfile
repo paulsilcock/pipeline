@@ -1,4 +1,4 @@
-stage 'Blah' {
+stage('Blah') {
 	echo "Check out code"
 	checkout scm
 
@@ -13,6 +13,6 @@ stage 'Blah' {
     ])
 }
 
-stage 'Test approval' {
+stage('Test approval') {
 	input 'Ok?'
 }
